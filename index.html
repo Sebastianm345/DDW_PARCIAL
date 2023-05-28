@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>News (parcial) </title>
     <style>
+        .headercontainer {
+            background-color: aqua;
+            height: 120px;
+            justify-content: center;
+            display: flex;
+        }
         .header {
             background-color: brown;
             display: flex;
@@ -62,6 +68,7 @@
             margin-top: 5px;
             }
         .topics {
+            background-color: azure;
             margin: 5px 20px 5px 5px;
         }
         .firstnewscontainer {
@@ -83,7 +90,7 @@
         .news1{
             background-color: blue;
             width: 665px;
-            height: 650px;
+            height: 700px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -99,19 +106,46 @@
             width: 640px;
             margin-bottom: 70px;
         }
-        .news2{
+        .news2 {
             background-color: goldenrod;
             width: 332.5px;
-            height: 320px;
+            height: 350px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .news2img {
+            background-color: aquamarine;
+            width: 322px;
+            height: 185px;
+        }
+        .textonews2 {
+            background-color: aquamarine;
+            width: 322px;
+            height: 150px;
         }
         .news3{
             background-color: violet;
             width: 332.5px;
-            height: 320px;
+            height: 350px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .textonews3 {
+            background-color: lightskyblue;
+            width: 322px;
+            height: 150px;
+        }
+        .news3img {
+            background-color: aquamarine;
+            width: 322px;
+            height: 185px;
         }
         .newscontainer2 {
             background-color: yellow;
-            height: 870px;
+            height: 1070px;
             width: 665px;
             display: flex;
             flex-wrap: wrap;
@@ -120,49 +154,102 @@
         .news4 {
             background-color: cornflowerblue;
             width: 332.5px;
-            height: 520px;
+            height: 700px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
+        .news4img {
+            background-color: chocolate;
+            width: 322px;
+            height: 185px;
+        }
+
+        .textonews4 {
+            background-color: aquamarine;
+            width: 322px;
+            height: 150px;
+        }
+        .news4_1img {
+            background-color: lightcoral;
+            width: 322px;
+            height: 185px;
+        }
+        .textonews4_1 {
+            background-color: lightpink;
+            width: 322px;
+            height: 150px;
+        }
+
         .news5 {
             background-color: yellowgreen;
             width: 332.5px;
-            height: 520px;
+            height: 700px;
         }
         .news6 {
             background-color: aqua;
             width: 332.5px;
-            height: 320px;
+            height: 350px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
+        .news6img {
+            background-color: aquamarine;
+            width: 322px;
+            height: 185px;
+        }
+        .textonews6 {
+            background-color: lightskyblue;
+            width: 322px;
+            height: 150px;
+        }
+
         .news7 {
             background-color: brown;
             width: 332.5px;
-            height: 320px;
+            height: 350px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .news7img {
+            background-color: aquamarine;
+            width: 322px;
+            height: 185px;
+        }
+        .textonews7 {
+            background-color: lightskyblue;
+            width: 322px;
+            height: 150px;
         }
 
 
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="logoicon">
-            <p>Logo icon</p>
-        </div>
-        <div class="name">
-            <p> img up-to-date-news</p>
-        </div>
-        <div class="espacio">
-            <p> espacio en blanco</p>
-        </div>
-        <div class="suscribe">
-            <p>Suscribete</p>
-        </div>
-        <div class="signin">
-            <p>Inicia secion</p>
-        </div>
-        <div class="searchicon">
-            <p>search icon</p>
-        </div>
-    </div>
-    
+    <div class="headercontainer">
+        <div class="header">
+            <div class="logoicon">
+                <p>Logo icon</p>
+            </div>
+            <div class="name">
+                <p> img up-to-date-news</p>
+            </div>
+            <div class="espacio">
+                <p> espacio en blanco</p>
+            </div>
+            <div class="suscribe">
+                <p>Suscribete</p>
+            </div>
+            <div class="signin">
+                <p>Inicia secion</p>
+            </div>
+            <div class="searchicon">
+                <p>search icon</p>
+            </div>
+        </div>    
+    </div>    
     <div class="underheader">
         <div class="topics">
             <p>Politica</p>
@@ -209,25 +296,73 @@
                 </div>
             </div>
             <div class="news2">
-                <p>News 2</p>
+                <div class="news2img">
+                    <p>imagen de news 2</p>
+                </div>
+                <div class="textonews2">
+                    <p>Ambito</p>
+                    <p>Titular que sera algo largo</p>
+                    <p>Breve descripcion</p>
+                </div>
             </div>
             <div class="news3">
-                <p>News 3</p>
+                <div class="news3img">
+                    <p>imagen de news 3</p>
+                </div>
+                <div class="textonews3">
+                    <p>Ambito</p>
+                    <p>Titular que sera algo largo</p>
+                    <p>Breve descripcion</p>
+                </div>
             </div>
         </div>
         
         <div class="newscontainer2">
             <div class="news4">
-                <p>News 4</p>
+                <div class="news4img">
+                    <p>imagen de news 4</p>
+                </div>
+                <div class="textonews4">
+                    <p>Ambito</p>
+                    <p>Titular que sera algo largo</p>
+                    <p>Breve descripcion</p>
+                </div>
+                <div class="news4_1img">
+                    <p>imagen de news 4_1</p>
+                </div>
+                <div class="textonews4_1">
+                    <p>Ambito</p>
+                    <p>Titular que sera algo largo</p>
+                    <p>Breve descripcion</p>
+                </div>
             </div>
             <div class="news5">
-                <p>News 5</p>
+                <h2>El peru en resumen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet non curabitur gravida arcu ac tortor dignissim. 
+                    Odio ut sem nulla pharetra diam. Nunc sed velit dignissim sodales ut eu. Nulla pharetra diam sit amet. Malesuada fames ac turpis egestas maecenas. 
+                    Ornare arcu odio ut sem nulla pharetra. 
+                    Nunc consequat interdum varius sit amet mattis. Duis ultricies lacus sed turpis tincidunt id aliquet. Faucibus ornare suspendisse sed nisi lacus. 
+                    Mi bibendum neque egestas congue quisque egestas diam in arcu.</p>
             </div>
             <div class="news6">
-                <p>News 5</p>
+                <div class="news6img">
+                    <p>imagen de news 6</p>
+                </div>
+                <div class="textonews6">
+                    <p>Ambito</p>
+                    <p>Titular que sera algo largo</p>
+                    <p>Breve descripcion</p>
+                </div>
             </div>
             <div class="news7">
-                <p>News 5</p>
+                <div class="news7img">
+                    <p>imagen de news 7</p>
+                </div>
+                <div class="textonews7">
+                    <p>Ambito</p>
+                    <p>Titular que sera algo largo</p>
+                    <p>Breve descripcion</p>
+                </div>
             </div>
 
         </div>
