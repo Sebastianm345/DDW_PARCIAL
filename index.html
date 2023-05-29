@@ -4,20 +4,15 @@
     <meta charset="UTF-8">
     <title>News (parcial) </title>
     <style>
-        .headercontainer {
-            background-color: aqua;
-            height: 110px;
-            justify-content: center;
-            display: flex;
-        }
         .header {
             background-color: #e3120b;
             width: 1330px;
-            height: 110px;
+            height: 95px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin: -0px 0px 0px 0px;
+            border-bottom: solid black 2px;
         }
         .logoicon {
             margin: 8px 0px 8px 0px;
@@ -92,31 +87,23 @@
         }
 
         .underheader {
-            background-color: blue;
             display: flex;
             justify-content: center;
-            height: 60px;
+            align-items: center;
+            width: 1330px;
+            height: 50px;
             margin-top: 5px;
             }
         .topics {
-            background-color: azure;
-            margin: 5px 20px 5px 5px;
+            margin: 5px 25px 5px 5px;
         }
         .firstnewscontainer {
-            background-color: cadetblue;
-            height: 1200px;
+            height: 747px;
+            width: 1330px;
             display: flex;
-            justify-content: center;
-            margin-top: 5px;
-
-        }
-        .newscontainer1{
-            background-color: blueviolet;
-            height: 1070px;
-            width: 665px;
-            justify-content: center;
-            display: flex;
-            flex-wrap: wrap;
+            margin-top: 6px;
+            border-top: solid black 2px;
+            border-bottom: solid silver 2px;
         }
         .news1{
             background-color: blue;
@@ -124,14 +111,14 @@
             height: 700px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            margin: 20px 0px 0px 0px;
+            border-right: solid 2px silver;
         }
         .news1img {
             background-color: aquamarine;
             width: 640px;
-            height: 370px;
-            margin-top: 12px;
-            display: flex;
+            height: 340px;
+            margin: 0px 0px 0px 5px;
         }
         .news1img img {
             width: 100%;
@@ -143,20 +130,23 @@
         }
         .textonews1 {
             background-color: yellowgreen;
+            height: 300px;
             width: 640px;
-            margin-bottom: 20px;
+            margin: 3px 0px 50px 5px;
         }
         .news2 {
-            background-color: goldenrod;
-            width: 332.5px;
-            height: 350px;
+            background-color: red;
+            width: 327px;
+            height: 400px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            margin: 0px 2px 0px 0px;
+            border-right: solid silver 2px;
 
         }
         .news2img {
             background-color: aquamarine;
+            margin: 25px 0px 0px 4px;
             width: 322px;
             height: 185px;
             display: flex;
@@ -173,25 +163,28 @@
             background-color: aquamarine;
             width: 322px;
             height: 150px;
+            margin: 0px 0px 0px 4px;
         }
         .news3{
             background-color: violet;
-            width: 332.5px;
-            height: 350px;
+            width: 327px;
+            height: 400px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            margin: 0px 2px 0px 2px;
         }
         .textonews3 {
             background-color: lightskyblue;
             width: 322px;
             height: 150px;
+            margin: 0px 0px 0px 4px;
         }
         .news3img {
             background-color: aquamarine;
             width: 322px;
             height: 185px;
             display: flex;
+            margin: 25px 0px 0px 4px;
         }
         .news3img img {
             width: 98%;
@@ -203,19 +196,22 @@
         }
         .newscontainer2 {
             background-color: yellow;
-            height: 1070px;
+            height: 750px;
             width: 665px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            margin-top: 20px;
         }
         .news4 {
-            background-color: cornflowerblue;
-            width: 332.5px;
+            background-color: rebeccapurple;
+            width: 333px;
             height: 700px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            margin: 20px 0px 0px 0px;
+            border-right: solid silver 2px;
         }
         .news4img {
             background-color: chocolate;
@@ -236,6 +232,7 @@
             background-color: aquamarine;
             width: 322px;
             height: 150px;
+            border-bottom: solid silver 2px;
         }
         .news4_1img {
             background-color: lightcoral;
@@ -260,19 +257,22 @@
 
         .news5 {
             background-color: yellowgreen;
-            width: 332.5px;
+            width: 322px;
             height: 700px;
+            margin: 20px 0px 0px 3px;
         }
         .news6 {
             background-color: aqua;
-            width: 332.5px;
-            height: 350px;
+            width: 327px;
+            height: 400px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            margin: 0px 2px 0px 02px;
+            border-left: silver solid 2px;
         }
         .news6img {
-            background-color: aquamarine;
+            background-color: rebeccapurple;
+            margin: 25px 0px 0px 4px;
             width: 322px;
             height: 185px;
             display: flex;
@@ -293,14 +293,16 @@
 
         .news7 {
             background-color: tomato;
-            width: 332.5px;
-            height: 350px;
+            width: 327px;
+            height: 400px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            margin: 0px 0px 0px 2px;
+            border-left: silver solid 2px;
         }
         .news7img {
             background-color: aquamarine;
+            margin: 25px 0px 0px 4px;
             width: 322px;
             height: 185px;
             display: flex;
@@ -317,14 +319,23 @@
             background-color: lightskyblue;
             width: 322px;
             height: 150px;
+            margin: 0px 0px 0px 0px;
+        }
+        .secondnewscontainer {
+            background-color: gold;
+            width: 1330px;
+            height: 430px;
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+            border-bottom: solid 2px black;
         }
 
 
     </style>
 </head>
 <body>
-    <div class="headercontainer">
-        <div class="header">
+    <div class="header">
             <div class="logoicon">
                 <img src="Imagenes/Logo_news.png" alt="Logo_news">
             </div>
@@ -341,8 +352,7 @@
             </div>
             <div class="searchicon">
                 <img src="Imagenes/search-icon.png" alt="search">
-            </div>
-        </div>    
+        </div>
     </div>    
     <div class="underheader">
         <div class="topics">
@@ -378,93 +388,90 @@
 
     </div>
     <div class="firstnewscontainer">
-        <div class="newscontainer1">
             <div class="news1">
                 <div class="news1img">
                     <img src="Imagenes/News1.png" alt="noticia1">
                 </div>
                 <div class="textonews1">
-                    <p>Politica</p>
-                    <h2 style="font-size: 35px;">Ley de impunidad: Congreso cambia reglas de prescripción y favorece la corrupción</h2>
-                    <p>Acción penal. Norma beneficia a excongresistas, exmagistrados y exministros investigados por delitos de patrocinio ilegal, peculado de uso, malversación de fondos y encubrimiento real.
+                    <p style="margin: 4px 0px 0px 0px;">Politica</p>
+                    <h2 style="font-size: 35px;margin: 8px 0px 0px 0px;">Ley de impunidad: Congreso cambia reglas de prescripción y favorece la corrupción</h2>
+                    <p style="margin: 12px 0px 0px 0px;">Acción penal. Norma beneficia a excongresistas, exmagistrados y exministros investigados por delitos de patrocinio ilegal, peculado de uso, malversación de fondos y encubrimiento real.
                         Entre los primeros beneficiarios aparece el prófugo ex juez supremo César Hinostroza Pariachi.</p>
                 </div>
             </div>
-            <div class="news2">
-                <div class="news2img">
-                    <img src="Imagenes/News2.png" alt="Mundo">
-                </div>
-                <div class="textonews2">
-                    <p style="background-color: brown; margin: 2px 0px 5px 0px;"> Mundo</p>
-                    <h3 style="background-color: brown; margin: 0px 0px 6px 0px;">Potente sismo de magnitud 5.7 en Colombia</h3>
-                    <p style="background-color: greenyellow; margin: 0px 0px 0px 0px">Un fuerte sismo se sintió en Santander y sectores de Bogotá. 
-                        El hecho ocurrió días después de que un temblor de 6,6 remeciera la zona fronteriza entre Colombia y Panamá.</p>
-                </div>
-            </div>
-            <div class="news3">
-                <div class="news3img">
-                    <img src="Imagenes/News3.jpeg" alt="News3">
-                </div>
-                <div class="textonews3">
-                    <p style="background-color: brown; margin: 2px 0px 5px 0px;"> Actualidad</p>
-                    <h3 style="background-color: brown; margin: 0px 0px 3px 0px;">Primera planta de fertilizantes en Perú será construida en Piura y generará más de 10.000 puestos de trabajo</h3>
-                    <p style="background-color: greenyellow; margin: 0px 0px 0px 0px">Declaran de interés nacional y necesidad pública la construcción de esta obra que garantizará la seguridad alimentaria en el país.</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="newscontainer2">
             <div class="news4">
                 <div class="news4img">
                     <img src="Imagenes/News4.png" alt="news4">
                 </div>
                 <div class="textonews4">
-                    <p style="background-color: brown; margin: 2px 0px 3px 0px;">Economia</p>
-                    <h3 style="background-color: lawngreen; margin: 0px 0px 4px 0px;">Se devolverá S/5 millones en IGV a turistas extranjeros</h3>
-                    <p style="background-color: brown; margin: 0px 0px 0px 0px">Este año. Visitantes de otros países podrán solicitar reembolso de impuestos.
+                    <p style="margin: 2px 0px 3px 0px;">Economia</p>
+                    <h3 style="margin: 0px 0px 4px 0px;">Se devolverá S/5 millones en IGV a turistas extranjeros</h3>
+                    <p style="margin: 0px 0px 0px 0px">Este año. Visitantes de otros países podrán solicitar reembolso de impuestos.
                         Gobierno espera que más de 100 negocios del rubro turismo se inscriban en el REA y sean parte del beneficio. </p>
                 </div>
                 <div class="news4_1img">
                     <img src="Imagenes/News4_1.png" alt="news4_1">
                 </div>
                 <div class="textonews4_1">
-                    <p style="background-color: brown; margin: 2px 0px 12px 0px;">Politica</p>
-                    <h3 style="background-color: aquamarine; margin: 0px 0px 6px 0px;">Encuesta IEP: un 82% de peruanos insiste en adelanto de las elecciones</h3>
-                    <p style="background-color: aqua; margin: 0px 0px 0px 0px">Desaprobados. Dina Boluarte mantiene un 79% de desaprobación. 
+                    <p style="margin: 2px 0px 12px 0px;">Politica</p>
+                    <h3 style="margin: 0px 0px 6px 0px;">Encuesta IEP: un 82% de peruanos insiste en adelanto de las elecciones</h3>
+                    <p style="margin: 0px 0px 0px 0px">Desaprobados. Dina Boluarte mantiene un 79% de desaprobación. 
                         El Congreso sigue con un 90% de rechazo ciudadano.</p>
                 </div>
             </div>
             <div class="news5">
-                <h2 style="margin-left: 8px;">El peru en resumen</h2>
-                <p style="margin-left: 8px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet non curabitur gravida arcu ac tortor dignissim. 
+                <h2>El peru en resumen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet non curabitur gravida arcu ac tortor dignissim. 
                     Odio ut sem nulla pharetra diam. Nunc sed velit dignissim sodales ut eu. Nulla pharetra diam sit amet. Malesuada fames ac turpis egestas maecenas. 
                     Ornare arcu odio ut sem nulla pharetra. 
                     Nunc consequat interdum varius sit amet mattis. Duis ultricies lacus sed turpis tincidunt id aliquet. Faucibus ornare suspendisse sed nisi lacus. 
                     Mi bibendum neque egestas congue quisque egestas diam in arcu.</p>
             </div>
-            <div class="news6">
-                <div class="news6img">
-                    <img src="Imagenes/News6.png" alt="News6">
-                </div>
-                <div class="textonews6">
-                    <p style="background-color: brown; margin: 2px 0px 5px 0px;"> Sociedad</p>
-                    <h3 style="background-color: brown; margin: 0px 0px 6px 0px;">Líderes y organizaciones sociales de Puno reiniciarán protestas contra el Gobierno</h3>
-                    <p style="background-color: greenyellow; margin: 0px 0px 0px 0px">Representantes de las 13 provincias brindan detalles de próximas manifestaciones en contra del Gobierno y el Congreso.</p>
-                </div>
+    </div>
+    <div class="secondnewscontainer">
+        <div class="news2">
+            <div class="news2img">
+                <img src="Imagenes/News2.png" alt="Mundo">
             </div>
-            <div class="news7">
-                <div class="news7img">
-                    <img src="Imagenes/News7.png" alt="News7">
-                </div>
-                <div class="textonews7">
-                    <p style="background-color: brown; margin: 2px 0px 5px 0px;"> Politica </p>
-                    <h3 style="background-color: brown; margin: 0px 0px 6px 0px;">CNDDHH: "Boluarte, Otárola y su grupo terminarán presos por muertes"</h3>
-                    <p style="background-color: greenyellow; margin: 0px 0px 0px 0px"> La Coordinadora Nacional de Derechos Humanos,afirma que la presidenta Dina Boluarte y el premier
-                        Alberto Otárola seran condenados por las muertes y represión en las protestas</p>
-                </div>
+            <div class="textonews2">
+                <p style="margin: 2px 0px 5px 0px;"> Mundo</p>
+                <h3 style="margin: 0px 0px 6px 0px;">Potente sismo de magnitud 5.7 en Colombia</h3>
+                <p style="margin: 0px 0px 0px 0px">Un fuerte sismo se sintió en Santander y sectores de Bogotá. 
+                    El hecho ocurrió días después de que un temblor de 6,6 remeciera la zona fronteriza entre Colombia y Panamá.</p>
             </div>
-
         </div>
+        <div class="news3">
+            <div class="news3img">
+                <img src="Imagenes/News3.jpeg" alt="News3">
+            </div>
+            <div class="textonews3">
+                <p style="background-color: brown; margin: 2px 0px 5px 0px;"> Actualidad</p>
+                <h3 style="background-color: brown; margin: 0px 0px 3px 0px;">Primera planta de fertilizantes en Perú será construida en Piura y generará más de 10.000 puestos de trabajo</h3>
+                <p style="background-color: greenyellow; margin: 0px 0px 0px 0px">Declaran de interés nacional y necesidad pública la construcción de esta obra que garantizará la seguridad alimentaria en el país.</p>
+            </div>
+        </div>
+        <div class="news6">
+            <div class="news6img">
+                <img src="Imagenes/News6.png" alt="News6">
+            </div>
+            <div class="textonews6">
+                <p style="background-color: brown; margin: 2px 0px 5px 0px;"> Sociedad</p>
+                <h3 style="background-color: brown; margin: 0px 0px 6px 0px;">Líderes y organizaciones sociales de Puno reiniciarán protestas contra el Gobierno</h3>
+                <p style="background-color: greenyellow; margin: 0px 0px 0px 0px">Representantes de las 13 provincias brindan detalles de próximas manifestaciones en contra del Gobierno y el Congreso.</p>
+            </div>
+        </div>
+        <div class="news7">
+            <div class="news7img">
+                <img src="Imagenes/News7.png" alt="News7">
+            </div>
+            <div class="textonews7">
+                <p style="background-color: brown; margin: 2px 0px 5px 0px;"> Politica </p>
+                <h3 style="background-color: brown; margin: 0px 0px 6px 0px;">CNDDHH: "Boluarte, Otárola y su grupo terminarán presos por muertes"</h3>
+                <p style="background-color: greenyellow; margin: 0px 0px 0px 0px"> La Coordinadora Nacional de Derechos Humanos,afirma que la presidenta Dina Boluarte y el premier
+                    Alberto Otárola seran condenados por las muertes y represión en las protestas</p>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
