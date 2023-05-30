@@ -3,7 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>News (parcial) </title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Libre+Baskerville&display=swap" rel="stylesheet">    
+    
     <style>
+        h1 {
+            font-family: 'Bitter', serif;
+        }
+        h3 {
+            font-family: 'Bitter', serif;
+            font-size: 22px; 
+        }
+        h2 {
+            font-family: 'Bitter', serif;   
+        }
+        p {
+            font-family: 'Bitter', serif;
+            font-size: 17px; 
+        }
         .header {
             background-color: #e3120b;
             width: 1330px;
@@ -96,7 +115,7 @@
             margin: 5px 25px 5px 5px;
         }
         .firstnewscontainer {
-            height: 747px;
+            height: 920px;
             width: 1330px;
             display: flex;
             margin-top: 6px;
@@ -105,7 +124,7 @@
         }
         .news1{
             width: 665px;
-            height: 700px;
+            height: 870px;
             display: flex;
             flex-wrap: wrap;
             margin: 20px 0px 0px 0px;
@@ -127,11 +146,11 @@
         .textonews1 {
             height: 300px;
             width: 640px;
-            margin: 3px 0px 50px 5px;
+            margin: 3px 0px 190px 5px;
         }
         .news2 {
             width: 327px;
-            height: 355px;
+            height: 405px;
             display: flex;
             flex-wrap: wrap;
             margin: 0px 2px 0px 0px;
@@ -154,19 +173,19 @@
         }
         .textonews2 {
             width: 322px;
-            height: 150px;
-            margin: 0px 0px 0px 3px;
+            height: 200px;
+            margin: 0px 0px 10px 3px;
         }
         .news3{
             width: 327px;
-            height: 355px;
+            height: 415px;
             display: flex;
             flex-wrap: wrap;
             margin: 0px 2px 0px 2px;
         }
         .textonews3 {
             width: 322px;
-            height: 150px;
+            height: 220px;
             margin: 0px 0px 0px 4px;
         }
         .news3img {
@@ -185,7 +204,7 @@
         }
         .news4 {
             width: 333px;
-            height: 700px;
+            height: 870px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -198,7 +217,7 @@
             display: flex;
         }
         .news4img img {
-            width: 98%;
+            width: 97%;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -208,13 +227,15 @@
 
         .textonews4 {
             width: 322px;
-            height: 150px;
+            height: 195px;
             border-bottom: solid silver 1px;
+            margin: 7px 0px 0px 0px;
         }
         .news4_1img {
             width: 322px;
             height: 185px;
             display: flex;
+            margin: 0px 0px 7px 0px;
 
         }
         .news4_1img img {
@@ -227,12 +248,13 @@
         }
         .textonews4_1 {
             width: 322px;
-            height: 150px;
+            height: 195px;
+            margin: 0px 0px 60px 0px;
         }
 
         .news5 {
             width: 322px;
-            height: 700px;
+            height: 870px;
             margin: 20px 0px 0px 3px;
         }
         .cuadrito {
@@ -242,8 +264,8 @@
             margin-left: 15px;
         }
         .continualeyendo {
-            border: solid black 2px;
-            width: 160px;
+            border: solid black 1px;
+            width: 180px;
             height: 40px;
             display: flex;
             justify-content: center;
@@ -270,7 +292,7 @@
 
         .news6 {
             width: 327px;
-            height: 355px;
+            height: 415px;
             display: flex;
             flex-wrap: wrap;
             margin: 0px 2px 0px 02px;
@@ -292,13 +314,13 @@
         }
         .textonews6 {
             width: 322px;
-            height: 150px;
-            margin: 0px 0px 0px 4px;
+            height: 200px;
+            margin: 0px 0px 18px 8px;
         }
 
         .news7 {
             width: 327px;
-            height: 355px;
+            height: 415px;
             display: flex;
             flex-wrap: wrap;
             margin: 0px 0px 0px 2px;
@@ -320,20 +342,20 @@
         }
         .textonews7 {
             width: 322px;
-            height: 150px;
-            margin: 0px 0px 0px 4px;
+            height: 218px;
+            margin: 0px 0px 0px 8px;
         }
         .secondnewscontainer {
             width: 1330px;
-            height: 385px;
+            height: 440px;
             display: flex;
             justify-content: center;
-            margin-top: 24px;
+            margin-top: 33px;
             border-bottom: solid 1px black;
         }
         #Ambitos {
             color: #e3120b;
-            
+            font-family: 'Libre Baskerville', serif;
         }
 
 
@@ -398,9 +420,9 @@
                     <img src="Imagenes/News1.png" alt="noticia1">
                 </div>
                 <div class="textonews1">
-                    <p style="margin: 4px 0px 0px 0px;" id="Ambitos">Politica</p>
-                    <h2 style="font-size: 35px;margin: 8px 0px 0px 0px;">Ley de impunidad: Congreso cambia reglas de prescripción y favorece la corrupción</h2>
-                    <p style="margin: 12px 0px 0px 0px;">Acción penal. Norma beneficia a excongresistas, exmagistrados y exministros investigados por delitos de patrocinio ilegal, peculado de uso, malversación de fondos y encubrimiento real.
+                    <p style="font-size: 22px;margin: 4px 0px 0px 0px;" id="Ambitos">Politica</p>
+                    <h2 style="font-size: 42px;margin: 8px 0px 0px 0px;">Ley de impunidad: Congreso cambia reglas de prescripción y favorece la corrupción</h2>
+                    <p style=" font-size: 22px;margin: 12px 0px 0px 0px;">Acción penal. Norma beneficia a excongresistas, exmagistrados y exministros investigados por delitos de patrocinio ilegal, peculado de uso, malversación de fondos y encubrimiento real.
                         Entre los primeros beneficiarios aparece el prófugo ex juez supremo César Hinostroza Pariachi.</p>
                 </div>
             </div>
@@ -411,16 +433,16 @@
                 <div class="textonews4">
                     <p style="margin: 2px 0px 3px 0px;" id="Ambitos">Economia</p>
                     <h3 style="margin: 0px 0px 4px 0px;">Se devolverá S/5 millones en IGV a turistas extranjeros</h3>
-                    <p style="margin: 0px 0px 0px 0px">Este año. Visitantes de otros países podrán solicitar reembolso de impuestos.
+                    <p style="margin: 0px 0px 0px 0px;">Este año. Visitantes de otros países podrán solicitar reembolso de impuestos.
                         Gobierno espera que más de 100 negocios del rubro turismo se inscriban en el REA y sean parte del beneficio. </p>
                 </div>
                 <div class="news4_1img">
                     <img src="Imagenes/News4_1.png" alt="news4_1">
                 </div>
                 <div class="textonews4_1">
-                    <p style="margin: 2px 0px 12px 0px;" id="Ambitos">Politica</p>
+                    <p style="margin: 9px 0px 6px 0px;" id="Ambitos">Politica</p>
                     <h3 style="margin: 0px 0px 6px 0px;">Encuesta IEP: un 82% de peruanos insiste en adelanto de las elecciones</h3>
-                    <p style="margin: 0px 0px 0px 0px">Desaprobados. Dina Boluarte mantiene un 79% de desaprobación. 
+                    <p style="margin: 0px 0px 0px 0px;">Desaprobados. Dina Boluarte mantiene un 79% de desaprobación. 
                         El Congreso sigue con un 90% de rechazo ciudadano.</p>
                 </div>
             </div>
